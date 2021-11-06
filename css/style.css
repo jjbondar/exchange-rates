@@ -1,0 +1,18 @@
+body {
+  font-size: 40px;
+}
+.exchange {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  font-size: 40px;
+  display: flex;
+}
+#buy_result, #sale_result {
+  margin-left: 15px;
+}
+.exchange_result {
+  display: flex;
+}

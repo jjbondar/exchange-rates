@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exchange Rates</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div>
+  <select name="select" id="currencySelect">
+    <option hidden></option>
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="RUR">RUR</option>
+  </select>
+  <div class="exchange">
+    <div class="exchange_result"><span>Buy</span><span id="buy_result"></span></div>
+    <div class="exchange_result"><span>Sale</span><span id="sale_result"></span></div>
+  </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
